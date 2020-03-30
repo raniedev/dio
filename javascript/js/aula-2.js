@@ -57,3 +57,18 @@ function voltar() {
     document.getElementById("mousemove").innerHTML = "Passe o mouse para revelar um segredo";
 }
 
+function trocar_2(elemento) {
+    elemento.innerHTML  = "É italiano e não joelho.";
+}
+
+function voltar_2(elemento) {
+    elemento.innerHTML = "Passe o mouse para revelar outro segredo";
+}
+
+function load() {
+    console.log("Página carregada...");
+}
+
+function funcaoChange(elemento) {
+    console.log(elemento.value);
+}

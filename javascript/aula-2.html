@@ -4,7 +4,7 @@
         <title>JavaScript</title>
         <meta charset="utf-8"/>
     </head>
-    <body>
+    <body onload="load()">
         <ul>
             <li>Desenvolva Páginas Web com JavaScript</li>
             <li>Manipulando Elementos da Página</li>
@@ -18,6 +18,17 @@
 
         <p id="mousemove" onmouseover="trocar()" onmouseout="voltar()">Passe o mouse para revelar um segredo</p>
 
+        <p id="mousemove" onmouseover="trocar()" onmouseout="voltar()">Passe o mouse para revelar um segredo</p>
+        
+        <p onmouseover="trocar_2(this)" onmouseout="voltar_2(this)">Passe o mouse para revelar outro segredo</p>
+        
+        <p onmouseover="trocar_2(this)" onmouseout="voltar_2(this)">Passe o mouse para revelar outro segredo</p>
+
+        <select onchange="funcaoChange(this)">
+            <option value="1">Valor 1</option>
+            <option value="2">Valor 2</option>
+            <option value="3">Valor 3</option>
+        </select>
         <script type="text/javascript" src="js/aula-2.js"></script>
     </body>
 </html>
