@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Acy"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-07-07 01:53:35 "/>
+        <attribute name="created" value="QWN5O0RFU0tUT1AtRVEzMUUzRjsyMDIxLTA3LTA2OyIxMDo0Mjo0OSAiOzI1MDE="/>
+        <attribute name="edited" value="QWN5O0RFU0tUT1AtRVEzMUUzRjsyMDIxLTA3LTA3OyIwMTo1MzozNSAiOzI7MjYwOA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numero, limite, tabuada" type="Integer" array="False" size=""/>
+            <assign variable="numero" expression="1"/>
+            <assign variable="limite" expression="10"/>
+            <input variable="tabuada"/>
+            <output expression="&quot;Tabuada de &quot; &amp; tabuada" newline="True"/>
+            <while expression="numero &lt;= limite">
+                <output expression="tabuada &amp; &quot; x &quot; &amp; numero &amp; &quot; = &quot; &amp; tabuada*numero" newline="True"/>
+                <assign variable="numero" expression="numero + 1"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>
